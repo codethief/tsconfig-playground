@@ -10,7 +10,6 @@
     },
   ],
   "compilerOptions": {
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.project2.tsbuildinfo",
     "paths": {
       "@project1/*": [
         "./project1/*"
