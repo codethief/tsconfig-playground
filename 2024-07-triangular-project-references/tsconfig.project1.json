@@ -1,0 +1,19 @@
+{
+  "include": [
+    "project1/**/*",
+  ],
+  // "files": [], // <--- Uncommenting leads to error: "The 'files' list in config file 'tsconfig.project2.json' is empty. If no 'files' or 'include' property is present in a tsconfig.json…"
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.project1.tsbuildinfo",
+    "paths": {
+      "@project1/*": [
+        "./project1/*"
+      ],
+    }
+  }
+}
