@@ -1,2 +1,3 @@
+# Use asdf (https://asdf-vm.com/) or mise (https://github.com/jdx/mise) to install dependencies
 nodejs 20.5.1
 pnpm 8.15.3
