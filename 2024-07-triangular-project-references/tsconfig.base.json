@@ -3,7 +3,8 @@
     "composite": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "noEmit": true,
+    "emitDeclarationOnly": true, // We *must* emit declarations, compare https://github.com/microsoft/TypeScript/issues/49844#issuecomment-1180758551
+    "outDir": "dist",
     "target": "ESNext",
   }
 }

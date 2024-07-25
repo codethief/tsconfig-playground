@@ -6,7 +6,7 @@
   "files": [],
   "references": [
     {
-      "path": "./tsconfig.project1.json" // Error: "Referenced project '[…]/tsconfig.project1.json' may not disable emit"
+      "path": "./tsconfig.project1.json"
     },
   ],
   "compilerOptions": {
