@@ -1,0 +1,10 @@
+{
+  "include": ["**/*"],
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "rootDir": "..",
+    "outDir": "../dist"
+  }
+}

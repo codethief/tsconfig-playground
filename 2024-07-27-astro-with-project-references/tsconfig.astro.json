@@ -1,0 +1,12 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "include": ["src/**/*.astro"],
+  "compilerOptions": {
+    "composite": true,
+  },
+  "references": [
+    {
+      "path": "./some-library/tsconfig.json"
+    }
+  ],
+}
