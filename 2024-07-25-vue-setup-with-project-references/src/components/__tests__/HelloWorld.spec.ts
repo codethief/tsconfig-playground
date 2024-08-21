@@ -1,8 +1,10 @@
 import { describe, it, expect } from 'vitest'
 
 import { mount } from '@vue/test-utils'
-import HelloWorld from '../HelloWorld.vue'
-import { FOO } from '../foo'
+import HelloWorld, { type HelloWorldType } from '../HelloWorld.vue' // VSCode erroneously complains about a non-existing import HelloWorld.vue, vue-tsc doesn't
+import { FOO } from '../foo' // Works in both VSCode and vue-tsc
+
+export const foo: HelloWorldType = 'Not valid'; // vue-tsc recognizes the type error, VSCode doesn't
 
 describe('HelloWorld', () => {
   it('renders properly', () => {

@@ -4,6 +4,10 @@ defineProps<{
 }>()
 </script>
 
+<script lang="ts">
+export type HelloWorldType = 'hello' | 'world';
+</script>
+
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
