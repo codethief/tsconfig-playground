@@ -11,6 +11,7 @@
     },
     "lib": [],
     "types": ["node", "jsdom"],
+    "strict": true,
   },
   "references": [
     {
