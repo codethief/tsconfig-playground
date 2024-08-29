@@ -4,9 +4,8 @@ consistently (e.g. tests _reference_ the production code / code-under-test but
 do not `include` it).
 
 # Current status
-VSCode with Vue extension v2.0.28 complains about imports from `HelloWorld.vue`
-in `HelloWorld.spec.ts` and doesn't recognize certain type errors in that file.
-This is likely an instance of
-https://github.com/vuejs/language-tools/issues/3526.
+VSCode with Vue extension v2.1.2 complains about imports from `HelloWorld.vue`
+in `HelloWorld.spec.ts`. Bug report filed here:
+https://github.com/vuejs/language-tools/issues/4750.
 
 `pnpm run type-check` works as expected, though.
